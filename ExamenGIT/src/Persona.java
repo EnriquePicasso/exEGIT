@@ -14,13 +14,20 @@ public class Persona {
 	
 	public void Cumpleaños() {
 		edad++;
-		System.out.print("Tienes " + edad + " años");
+		System.out.print("Tienes " + edad + " años\n");
 	}
 
 	public static void main(String[] args) {
 		Persona p = new Persona("Enrique","Martinez", 38);
 		p.Cumpleaños();
+		p.DatosPersona();
 
+	}
+	
+	public void DatosPersona() {
+		System.out.print("Nombre: " + nombre + "\n" 
+						+ "Apellidos: " + apellidos + "\n"
+						+ "Edad: " + edad);
 	}
 
 }
