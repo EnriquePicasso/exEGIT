@@ -5,6 +5,7 @@ public class Persona {
 	private String nombre;
 	private String apellidos;
 	private int edad;
+	private String provincia;
 	
 	public Persona(String nombre, String apellidos, int edad) {
 		this.nombre = nombre;
